@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="formulario.css" media="screen">
+
+    <title>Cadastro</title>
+</head>
+<body>
+        <header>
+        <h1 id="titulo">Cadastrar contatos</h1>   
+    </header>
+    <form> 
+        <br>
+            <div class="campo">
+                <label for="nome"><strong>Digite seu nome:</strong></label>
+                <input type="text" nome="nome" id="nome" required><br>
+                <label for="Telefone"><strong>Digite seu telefone: </strong></label>
+                <input type="phone" nome="telefone" id="telefone" required><br>
+                <label for="endereço"><strong>Digite seu endereço: </strong></label>
+                <input type="texto" nome="endereço" id="endereço" required>
+            </div>
+             <div class="campo">
+                <label><strong>Gênero: </strong></label>
+                <label>
+                    <input type="radio" nome="genero" value="feminino">feminino
+                </label>
+                <label>
+                    <input type="radio" nome="genero" value="back-end">Masculino
+                </label>
+                <label>
+                    <input type="radio" nome="genero" value="fullstack">Outro
+                </label>
+             </div>
+             </div>
+             <div>
+                <h2>Foto De Perfil: </h2>
+                <img src= "C:\Users\REDE-002135\Documents\AtividadeFormulario\add-person-2646097_960_720.webp" width="150" height="150"/>
+             </div>
+    <div class="campo">
+        <h2>Sobre você: </h2>
+        <br>
+        <textarea rows="5" style="width: 26em" id="experiencia" nome="experiencia"></textarea>
+    </div>
+    <div>
+    <button class="botao1" type="submit" onsubmit="">cancelar</button>
+    <br>
+    <br>
+    <button class="botao2" type="submit" onsubmit="">salvar</button>
+    </div>
+    </form>
+    <br>
+    <br>
+    <br>
+    <footer>
+        <h1 id="titulo2">By Jamille Da silva.</h1>
+    </footer>
+</body>
+</html>
